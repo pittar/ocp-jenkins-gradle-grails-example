@@ -29,7 +29,7 @@ $ oc process -f https://raw.githubusercontent.com/redhat-cop/containers-quicksta
 
 Ok!  When that build completes, you will have a new [ImageStream](https://docs.okd.io/latest/architecture/core_concepts/builds_and_image_streams.html#image-streams) that is labeled with `role=jenkins-slave` so that Jenkins master will automatically be able to pick up and use this new agent type.
 
-*NOTE:* If Jenkins is alredy running, you will have to restart Jenkins for it to become aware of the new agent.
+*NOTE:* If Jenkins is already running, you will have to restart Jenkins for it to become aware of the new agent.
 
 ## Jenkins Pipeline
 
